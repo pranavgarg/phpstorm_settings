@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="phpcbf-single file" description="Fix PHP CodeSniffer warnings using phpcbf" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/vendor/squizlabs/php_codesniffer/scripts/phpcbf" />
+      <option name="PARAMETERS" value="--standard=$ProjectFileDir$/vendor/GrovoLearning/php-code-rules/phpcs.xml $FileDir$/$FileName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

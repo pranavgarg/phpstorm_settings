@@ -1,0 +1,18 @@
+<application>
+  <component name="BuiltInServerOptions" builtInServerPort="9010" />
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="9.4.0" last-modified="1516992692000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/7.4.0/bin/node" />
+  </component>
+  <component name="PhpRefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_METHOD" value="true" />
+  </component>
+</application>
